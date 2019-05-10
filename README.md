@@ -1,5 +1,6 @@
-# Kubernetes 
-This project can help you to setup a local kubernetes cluster with 1 or 2 nodes. It runs in multiple vm using vagrant.
+# Spring root with kubernetes
+This is a sample project using java spring root. It will show you how to build docker image and push to docker hub.  
+You can then test this image from kubernetes node from [kube project](https://github.com/choonhow/kube)
 
 ## 0) Topic
 1) [overview](#1-overview)  
