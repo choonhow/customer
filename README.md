@@ -1,5 +1,5 @@
 # Spring root with kubernetes
-This is a sample project using java spring root. It will show you how to build docker image and push to docker hub.  
+This is a sample project using java spring boot. It will show you how to build docker image and push to docker hub.  
 You can then test this image from kubernetes node from [kube project](https://github.com/choonhow/kube)
 
 ## 0) Topic
@@ -83,4 +83,4 @@ c4a7cf6a6169: Mounted from library/openjdk
 ```
 
 ## 7) spring root demo
-- your image is ready in docker hub and can be use in [spring root demo project](https://github.com/choonhow/kube#11-setup-spring-root-demo)
+- your image is ready in docker hub and can be use in [spring boot demo project](https://github.com/choonhow/kube#11-setup-spring-boot-demo)
