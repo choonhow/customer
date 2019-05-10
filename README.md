@@ -12,7 +12,7 @@ You can then test this image from kubernetes node from [kube project](https://gi
 7) [spring boot demo](#7-spring-boot-demo)
 
 ## 1) overview
-This is a sample project using java spring root.  
+This is a sample project using java spring boot.  
 This project will build into docker image and push to docker hub.  
 
 ## 2) prerequisite
