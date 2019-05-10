@@ -19,11 +19,13 @@ This project will build into docker image and push to docker hub.
 - or you can use vagrant image (k8s-m) from [kube project](https://github.com/choonhow/kube)
 
 ## 3) build project
-- vagrant will setup 1 master node (k8s-m) 4GB RAM, & 2 client nodes (k8s-n1, k8s-n2) with 2GB RAM.  
-  Run the following command to bring up master & client nodes
-- during the setup, it will install ansible into the vm.
-- it will take a while to download and install the vm.
-
+- run the following to build the java spring project
+```
+mvn build
+```
+- maven will build jar file in /target folder 
+- run the following to build & create the docker image
+- docker will copy `target/customer-0.0.1-SNAPSHOT.jar` into `/bs.jar`
 ```
 docker image build --tag customer:0.1 .
 
@@ -47,7 +49,7 @@ https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 Login Succeeded
 ```
 
-## 5) show docker image
+## 5) show docker images
 - run the following to show docker images in your machine
 
 ```
